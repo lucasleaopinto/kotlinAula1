@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
     println("Qtd de chars: ${frase.count()}")
 
     println("Qtd de chars: ${frase.length}")
-
+    frase = "Alterando o texto"
     println("Qtd de chars: ${frase.toUpperCase()}")
 
 
