@@ -5,9 +5,9 @@ fun main (args:Array<String>){
 
     println(familiaMap.values)
     println(familiaMap.keys)
-    familiaMap.forEach{println("${it.key}: ${it.value}")}
+  //  familiaMap.forEach{println("${it.key}: ${it.value}")}
 
-    //familiaMap.forEach{t,u -> println("$t - $u")}
+    familiaMap.forEach{t,u -> println("$t - $u")}
 
 
 }
