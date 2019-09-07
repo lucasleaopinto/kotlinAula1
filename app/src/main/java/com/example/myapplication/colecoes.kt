@@ -23,4 +23,29 @@ fun main(args: Array<String>) {
         println(i)
     }
 
+    val listaCursos: MutableList<String> = mutableListOf("Analise e Desenvolvimento de SistemaDS","Desenvolvimeto Dispositivos Móveis");
+
+    listaCursos.forEach{ println(it)}
+    println("-------------")
+
+    listaCursos.add("Tecnico em informática")
+
+    println(" ")
+    listaCursos.forEach{ println(it)}
+
+    //Set e Mutable
+    val setCursos: MutableSet<String> = mutableSetOf("ADS","SDM","TII")
+
+    setCursos.add("ADS")
+
+    println("----Set Mutable Set ---------")
+    setCursos.forEach{ println(it)}
+
+    // Map e Muta ble
+    val familiaMap: MutableMap<String, String> = mutableMapOf(Pair("Pai","Tiao"),Pair("Filho","Lucas"))
+
+    familiaMap.put("Irmao","Luana")
+
+
+
 }
