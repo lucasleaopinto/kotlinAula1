@@ -19,11 +19,11 @@ fun main(){
     println(sobreNome?.capitalize())
     println(sobreNome?.length)
 
-    try{
-        println(sobreNome.capitalize())
-        println(sobreNome.length)
+   //  try{
+   //     println(sobreNome.capitalize())
+   //     println(sobreNome.length)
+   //
+   //   }catch (Kne: KotlinNullPointerException){
 
-    }catch (Kne: KotlinNullPointerException){
-
-    }
+   // }
 }
